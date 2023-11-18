@@ -225,7 +225,7 @@ body {
 .timeline ul li {
   padding: 20px;
   background-color: #1e1f22;
-  color: white;
+  color: black;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -269,6 +269,7 @@ body {
 .timeline-content .date {
   font-size: 12px;
   font-weight: 300;
+  color: black;
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
