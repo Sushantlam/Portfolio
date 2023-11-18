@@ -45,7 +45,7 @@ var tl = gsap.timeline({
   scrollTrigger: {
       trigger: ".page1 h2",
       scroller: ".main",
-       markers:true,
+      //  markers:true,
       start: "top 47%",
       end: "top 20",
       scrub: 1
@@ -85,7 +85,7 @@ var tl2=gsap.from(".timeline",{
   scrollTrigger:{
       trigger: ".timeline-content",
       scroller: ".main",
-      markers: true,
+      // markers: true,
       start: "top 70%",
       end: "top 40%",
       // opacity:0,
