@@ -116,6 +116,31 @@ body {
   white-space: nowrap;
 }
 
+@media only screen and (min-width: 301px) and (max-width: 800px) {
+  .frontend{
+    margin-left: 1vw;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .container{
+   /* display: flex; */
+    flex-direction: column;
+    width: 100%;
+  }
+  #page5{
+    min-height: 50vh;
+    width: 100vw;
+  }
+  .form{
+    flex-direction: column;
+   height: 100%;
+   padding: 0px;
+  width: 100%;
+  }
+  
+}
+
 
 .page2 {
   min-height: 100vh;
