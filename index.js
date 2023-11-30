@@ -101,6 +101,7 @@ boxes.forEach(function(elem){
         crsr.style.width = "270px"
         crsr.style.height = "270px"
         crsr.style.borderRadius = "0"
+        crsr.style.zIndex = "99"
         crsr.style.backgroundImage = `url(${att})`
         crsr.style.objectFit = "fill"
     })
