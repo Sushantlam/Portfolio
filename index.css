@@ -118,8 +118,13 @@ body {
 
 @media only screen and (min-width: 301px) and (max-width: 800px) {
   .frontend{
-    margin-left: 1vw;
-    font-size: 10px;
+    margin-left: 5vw;
+    font-size: 50px;
+    white-space: nowrap;
+  }
+  .fullstack{
+    margin-left: 20vw;
+    font-size: 40px;
     white-space: nowrap;
   }
 
@@ -411,12 +416,11 @@ body {
 
 
 .form {
-  position: relative;
-  top: 150px;
   display: flex;
   max-width: 1440px;
-  margin: auto;
-  justify-content: space-around;
+  height: 100vh;
+ margin: auto;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -448,6 +452,7 @@ form {
   border: 0.5px solid gainsboro;
   padding: 20px;
   color: #1e1f22;
+  width: 30%;
   border-radius: 10px;
   align-items: center;
 }
@@ -480,7 +485,41 @@ textarea {
   transition: ease-out 0.8s;
 }
 
+@media only screen and (max-width: 1000px) {
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .getInTouch{
+    width: 100vw;
+    
+  }
 
+  .first{
+    font-size: 50px;
+  }
+  .second{
+    font-size: 50px;
+  }
+  #page5 {
+    background-color: #8dc572;
+    min-height: 100vh;
+    padding: 20px 0px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    border: 0.5px solid gainsboro;
+    padding: 20px;
+    color: #1e1f22;
+    width: 80%;
+    border-radius: 10px;
+    align-items: center;
+  }
+  }
 
 #footer {
   min-height: 30vh;
