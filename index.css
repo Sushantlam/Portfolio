@@ -250,6 +250,7 @@ body {
 .timeline-content {
   min-width: 350px;
   min-height: 150px;
+  width: 100%;
 }
 
 .timeline ul li {
@@ -285,6 +286,7 @@ body {
 
 .timeline-content h1 {
   font-weight: 500;
+  width: 100%;
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
@@ -296,6 +298,12 @@ body {
   font-weight: 300;
 }
 
+.timeline-content span {
+  font-size: 16px;
+  width: 100%;
+  line-height: 30px;
+  font-weight: 300;
+}
 .timeline-content .date {
   font-size: 12px;
   font-weight: 300;
@@ -315,6 +323,8 @@ body {
     height: 100%;
     background-color: gray;
   }
+
+  
 
   .timeline ul li {
     width: 50%;
@@ -356,10 +366,23 @@ body {
     left: -30px;
   }
 
-  .timeline-content .date {
+  .timeline-content h1{
+    width: 100%;
+  }
+
+  .timeline-content p{
+    width: 100%;
+  }
+
+  .timeline-content span{
+    width: 100%;
+    padding: 0px 100px ;
+  }
+
+  /* .timeline-content .date {
     position: absolute;
     top: -30px;
-  }
+  } */
 
   .timeline ul li:hover::before {
     background-color: aqua;
