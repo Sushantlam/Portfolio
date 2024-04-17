@@ -105,14 +105,15 @@ body {
 
 
 .frontend {
-  margin-left: 16vw;
-  font-size: 100px;
+  margin-left: 17vw;
+  font-size: 80px;
   white-space: nowrap;
+  
 }
 
 .fullstack {
   margin-left: 25vw;
-  font-size: 100px;
+  font-size: 80px;
   white-space: nowrap;
 }
 
@@ -248,7 +249,7 @@ body {
 }
 
 .timeline-content {
-  min-width: 350px;
+  max-width: 350px;
   min-height: 150px;
   width: 100%;
 }
@@ -312,6 +313,8 @@ body {
   letter-spacing: 2px;
 }
 
+
+
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
@@ -366,9 +369,7 @@ body {
     left: -30px;
   }
 
-  .timeline-content h1{
-    width: 100%;
-  }
+  
 
   .timeline-content p{
     width: 100%;
@@ -567,7 +568,7 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   margin-top: 2rem;
 }
 
@@ -616,3 +617,51 @@ p {
 
 
 }
+
+@media only screen and (max-width: 768px) {
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+  }
+}
+
+
+
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+ 
+
+  .photo h3 {
+    font-size: 24px;
+  }
+
+  .frontend {
+    font-size: 28px;
+    margin-left: 10vw;
+  }
+
+  .fullstack {
+    font-size: 32px;
+  }
+}
+
+/* Additional responsive styles for even smaller screens */
+@media screen and (max-width: 480px) {
+  .photo h3 {
+    font-size: 20px;
+  }
+
+  .frontend {
+    font-size: 24px;
+    margin-left: 10vw;
+  }
+
+  .fullstack {
+    font-size: 28px;
+  }
+}
+
+
